@@ -17,7 +17,7 @@ public class main {
 		pizza = pizzaStore.orderPizza("viggie");
 		System.out.println(pizza+" 고객전달\n");
 		
-		System.out.println("git 서버에 푸쉬");
+		System.out.println("git zxcv0424 환영");
 	}
 
 }
