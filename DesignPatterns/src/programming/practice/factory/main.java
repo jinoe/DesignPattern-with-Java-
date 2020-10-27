@@ -16,6 +16,8 @@ public class main {
 		System.out.println(pizza+" °í°´Àü´Þ\n");
 		pizza = pizzaStore.orderPizza("viggie");
 		System.out.println(pizza+" °í°´Àü´Þ\n");
+		
+		System.out.println("git ¼­¹ö¿¡ Çª½¬");
 	}
 
 }
