@@ -1,5 +1,7 @@
 package programming.practice.factory;
 
+import programming.practice.factory.Pizza;
+
 public abstract class PizzaStore {
 	
 	
