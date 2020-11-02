@@ -1,10 +1,10 @@
 package programming.practice.factory;
 
-public class PizzaStore {
+public abstract class PizzaStore {
 	
 	
 	public Pizza orderPizza(String pizzaName) {
-		Pizza pizza = SimplePizzafactory.createPizza(pizzaName);
+		Pizza pizza = this.createPizza(pizzaName);
 		if(pizza == null) {
 			return null;
 		}
@@ -14,4 +14,5 @@ public class PizzaStore {
 		
 		return pizza;
 	}
+	public abstract Pizza createPizza(String name);
 }
