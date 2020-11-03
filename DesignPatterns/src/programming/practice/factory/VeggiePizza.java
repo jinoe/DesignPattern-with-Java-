@@ -1,6 +1,6 @@
 package programming.practice.factory;
 
-public class ViggiePizza extends Pizza {
+public class VeggiePizza extends Pizza {
 
 	public void prepare() {
 		// TODO Auto-generated method stub

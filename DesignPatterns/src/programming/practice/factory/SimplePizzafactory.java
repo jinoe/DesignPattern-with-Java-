@@ -18,7 +18,7 @@ public class SimplePizzafactory {
 			pizza = new ClamPizza();
 		}
 		else if(name.equals("viggie")) {
-			pizza = new ViggiePizza();
+			pizza = new VeggiePizza();
 		}
 		
 		return pizza;
